@@ -1,0 +1,16 @@
+.order-summary {
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+table th {
+  font-weight: 500;
+  padding-right: 40px;
+}
+
+table tr {
+  border-bottom: 1px solid lightgray;
+}
