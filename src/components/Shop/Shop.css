@@ -13,11 +13,18 @@
   background-color: rgba(0, 0, 0, 0.808);
   padding: 20px;
   text-align: center;
-  font-size: 17px;
 }
 
 .search-container input {
   width: 80%;
-  padding: 5px;
+  padding: 8px;
   border-radius: 5px;
+  font-size: 17px;
+}
+
+.search-container input:focus {
+  outline: none;
+  border-radius: 5px;
+  box-shadow: 0 0 5px cyan;
+  border: 1px solid rgba(81, 203, 238, 1);
 }

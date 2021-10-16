@@ -31,26 +31,29 @@ const Cart = (props) => {
       </div>
       <br />
       <table>
-        <tr>
-          <th>Total before tax: </th>
-          <td>${total.toFixed(2)}</td>
-        </tr>
+        <tbody>
+          <tr>
+            <th>Total before tax: </th>
+            <td>${total.toFixed(2)}</td>
+          </tr>
 
-        <tr>
-          <th>Shipping: </th>
-          <td>${shipping.toFixed(2)}</td>
-        </tr>
+          <tr>
+            <th>Shipping: </th>
+            <td>${shipping.toFixed(2)}</td>
+          </tr>
 
-        <tr>
-          <th>Estimated Tax:</th>
-          <td>${tax.toFixed(2)}</td>
-        </tr>
+          <tr>
+            <th>Estimated Tax:</th>
+            <td>${tax.toFixed(2)}</td>
+          </tr>
 
-        <tr>
-          <th>Order total:</th>
-          <td>${totalAmount.toFixed(2)}</td>
-        </tr>
+          <tr>
+            <th>Order total:</th>
+            <td>${totalAmount.toFixed(2)}</td>
+          </tr>
+        </tbody>
       </table>
+      <div className="place-order">{props.children}</div>
     </div>
   );
 };

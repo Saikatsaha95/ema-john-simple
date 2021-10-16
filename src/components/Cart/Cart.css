@@ -1,9 +1,16 @@
+.place-order {
+  margin-left: 20px;
+}
+
 .order-summary {
   text-align: center;
+  margin-right: 60px;
 }
 
 table {
+  text-align: center;
   border-collapse: collapse;
+  margin-bottom: 10px;
 }
 
 table th {
@@ -13,4 +20,11 @@ table th {
 
 table tr {
   border-bottom: 1px solid lightgray;
+}
+
+table tr:last-child {
+  border-bottom: none;
+  font-size: 20px;
+  font-weight: bold;
+  color: crimson;
 }
